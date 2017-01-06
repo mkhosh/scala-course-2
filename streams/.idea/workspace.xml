@@ -2,43 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d229cae2-6820-42a2-ab94-736cd5bd607f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/streams/pouring.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/streams/testPouring.sc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/streams/week1.sc" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/Solver$class.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/Solver.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/streams/json.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Block$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Block$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Block$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Block$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Block.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Block.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Down$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Down$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Left$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Left$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Move.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Move.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Pos.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Pos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Right$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Right$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Up$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$Up$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/GameDef$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/StringParserTerrain$$anonfun$streams$StringParserTerrain$$vector$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/StringParserTerrain$$anonfun$streams$StringParserTerrain$$vector$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/StringParserTerrain$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/StringParserTerrain$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/streams/StringParserTerrain.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/streams/StringParserTerrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$1$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$1$$anon$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$2$$anon$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$2$$anon$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$3$$anon$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$3$$anon$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$4$$anon$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$4$$anon$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$Level1$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$Level1$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$SolutionChecker$$anonfun$solve$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite$SolutionChecker$$anonfun$solve$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite.class" afterPath="$PROJECT_DIR$/target/scala-2.11/test-classes/streams/BloxorzSuite.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root.iml" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/streams/GameDef.scala" afterPath="$PROJECT_DIR$/src/main/scala/streams/GameDef.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/streams/Solver.scala" afterPath="$PROJECT_DIR$/src/main/scala/streams/Solver.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/streams/StringParserTerrain.scala" afterPath="$PROJECT_DIR$/src/main/scala/streams/StringParserTerrain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/streams/BloxorzSuite.scala" afterPath="$PROJECT_DIR$/src/test/scala/streams/BloxorzSuite.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/streams/week1.sc" afterPath="$PROJECT_DIR$/src/main/scala/streams/week1.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/progfun2-streams/progfun2-streams$sbt_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/progfun2-streams/progfun2-streams$sbt_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/progfun2-streams/progfun2-streams$sbt_2.11/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/progfun2-streams/progfun2-streams$sbt_2.11/0.1-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/progfun2-streams/progfun2-streams$sources_2.11/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/progfun2-streams/progfun2-streams$sources_2.11/0.1-SNAPSHOT/resolved.xml.properties" />
@@ -60,7 +31,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_javadoc_2.11-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_javadoc_2.11-sources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_javadoc_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_javadoc_2.11-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_javadoc_2.11-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_javadoc_2.11-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
     </list>
@@ -98,18 +68,38 @@
       <file leaf-file-name="pouring.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/streams/pouring.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="630">
               <caret line="42" column="67" lean-forward="false" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solver.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solver.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/streams/Solver.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="99" column="16" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+            <state relative-caret-position="280">
+              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week1.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/streams/week1.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/streams/json.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -118,7 +108,7 @@
       <file leaf-file-name="BloxorzSuite.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/streams/BloxorzSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="1635">
               <caret line="114" column="2" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
               <folding>
                 <element signature="e#17#46#0" expanded="true" />
@@ -130,7 +120,7 @@
       <file leaf-file-name="Bloxorz.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/streams/Bloxorz.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="75">
               <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding />
             </state>
@@ -140,7 +130,7 @@
       <file leaf-file-name="GameDef.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/streams/GameDef.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1191">
+            <state relative-caret-position="2085">
               <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
               <folding />
             </state>
@@ -159,7 +149,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lift</find>
+      <find>”</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -175,18 +169,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/streams/GameDef.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/streams/StringParserTerrain.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/streams/BloxorzSuite.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/streams/week1.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/streams/pouring.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/streams/testPouring.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/streams/Solver.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/streams/week1.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/streams/json.sc" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2994" />
-    <option name="y" value="-238" />
-    <option name="width" value="1050" />
-    <option name="height" value="877" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-157" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,40 +320,11 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pouring.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="progfun2-streams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="streams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -644,7 +609,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1483290841132" />
+    <option name="lastUpdateTimestamp" value="1483726498564" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -734,13 +699,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2994" y="-238" width="1050" height="877" extended-state="0" />
+    <frame x="-1920" y="-157" width="1920" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -750,10 +715,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34190476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -813,6 +778,56 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/testPouring.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/pouring.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="67" lean-forward="false" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/Solver.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/streams/BloxorzSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="114" column="2" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
+          <folding>
+            <element signature="e#17#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/Bloxorz.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/GameDef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/streams/week1.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -867,17 +882,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/week1.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/streams/Bloxorz.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="75">
           <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
@@ -885,7 +892,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/streams/BloxorzSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="1635">
           <caret line="114" column="2" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="114" selection-end-column="2" />
           <folding>
             <element signature="e#17#46#0" expanded="true" />
@@ -895,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/streams/pouring.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="630">
           <caret line="42" column="67" lean-forward="false" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
           <folding />
         </state>
@@ -911,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/streams/GameDef.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1191">
+        <state relative-caret-position="2085">
           <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
           <folding />
         </state>
@@ -919,8 +926,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/streams/Solver.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="99" column="16" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        <state relative-caret-position="280">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/week1.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streams/json.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
           <folding />
         </state>
       </provider>

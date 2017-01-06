@@ -1,5 +1,7 @@
 
-List(1, 2, 3)
+val myList = List(1, 2, 3)
+
+myList.foreach(println)
 
 for {
   i <- 1 to 5
@@ -38,16 +40,16 @@ val t2 = t1 delta 3
 
 t2.a
 
-val v = Vector(Vector(1,2,4),Vector(6,7))
+val v = Vector(Vector(1, 2, 4), Vector(6, 7))
 
 val v2 = v(0)
 
-v2 indexOf(4)
+v2 indexOf (4)
 
 true && false
 
 Vector("abc": _*)
 
-val myset = Set(1,3,4)
+val myset = Set(1, 3, 4)
 
 myset + 1
