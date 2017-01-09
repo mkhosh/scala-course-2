@@ -14,8 +14,7 @@ abstract class JSON {
   }
 }
 
-
-List(1,2,3) mkString "a"
+List(1, 2, 3) mkString "a"
 
 case class JSeq(elems: List[JSON]) extends JSON
 
@@ -60,3 +59,27 @@ def show(json: JSON): String = json match {
 }
 
 show(data)
+
+val f: PartialFunction[String, String] = {
+  case "ping" => "pong"
+}
+f("ping")
+f.isDefinedAt("abc")
+
+trait myTrait[T] {
+  def apply(x: T): T
+}
+
+val a = new myTrait[Int] {
+  def apply(x: Int) = x * x
+}
+
+a(12)
+
+val f2: PartialFunction[List[Int], String] = {
+  case Nil => "One"
+  case x :: y :: rest => "," + f2(rest)
+}
+
+f2(List(1,2,3))
+f2.isDefinedAt(List(1,2,3)) //it seems that it doesn't check recurssive call

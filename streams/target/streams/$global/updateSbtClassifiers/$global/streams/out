@@ -1207,9 +1207,9 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
-[debug] :: resolution report :: resolve 1080ms :: artifacts dl 33ms
+[debug] :: resolution report :: resolve 1232ms :: artifacts dl 37ms
 [debug] 	report for progfun2-streams#progfun2-streams$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/streams/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sbt_2.11-default.xml
-[debug] 	resolve done (1080ms resolve - 33ms download)
+[debug] 	resolve done (1232ms resolve - 37ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun2-streams#progfun2-streams$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1779,6 +1779,6 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-js-envs_2.10;0.6.11!scalajs-js-envs_2.10.jar(src)
 [debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11!scalajs-sbt-test-adapter_2.10.jar(src)
-[debug] :: resolution report :: resolve 125ms :: artifacts dl 19ms
+[debug] :: resolution report :: resolve 206ms :: artifacts dl 30ms
 [debug] 	report for progfun2-streams#progfun2-streams$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/streams/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_2.11-default.xml
-[debug] 	resolve done (125ms resolve - 19ms download)
+[debug] 	resolve done (206ms resolve - 30ms download)
