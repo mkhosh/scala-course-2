@@ -28,7 +28,7 @@ case class JBool(b: Boolean) extends JSON
 
 case object JNull extends JSON
 
-val data = JObj(Map(
+val data = List(JObj(Map(
   "firstName" -> JStr("John"),
   "lastName" -> JStr("Smith"),
   "address" -> JObj(Map(
@@ -42,7 +42,7 @@ val data = JObj(Map(
     )),
     JObj(Map(
       "type" -> JStr("fax"), "number" -> JStr("646 555-4567")
-    ))))))
+    )))))))
 
 def show(json: JSON): String = json match {
   case JSeq(elems) =>
@@ -58,7 +58,7 @@ def show(json: JSON): String = json match {
   case JNull => "null"
 }
 
-show(data)
+show(data.head)
 
 val f: PartialFunction[String, String] = {
   case "ping" => "pong"
@@ -81,5 +81,22 @@ val f2: PartialFunction[List[Int], String] = {
   case x :: y :: rest => "," + f2(rest)
 }
 
-f2(List(1,2,3))
-f2.isDefinedAt(List(1,2,3)) //it seems that it doesn't check recurssive call
+
+"a"
+'a'
+
+val s4 = "abcde" map {
+  case 'a' => 'b'
+  case 'b' => 'c'
+  case 'c' => 'd'
+  case 'd' => 'e'
+  case 'e' => 'f'
+}
+
+for {
+  JObj(bindings) <- data
+  JSeq(phones) = bindings("phoneNumbers")
+  JObj(phone) <- phones
+  JStr(digits) = phone("number")
+  if digits startsWith "212"
+} yield (bindings("firstName"), bindings("lastName"))

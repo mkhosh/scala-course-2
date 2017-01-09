@@ -137,20 +137,8 @@
 [debug] == resolving dependencies default#streams-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [info] Resolving org.scala-js#sbt-scalajs;0.6.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#sbt-scalajs;0.6.11 {compile=[default(compile)]}
-[info] Resolving org.scala-js#sbt-scalajs;0.6.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#sbt-scalajs;0.6.11 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#sbt-scalajs;0.6.11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: found md file for org.scala-js#sbt-scalajs;0.6.11
-[debug] 		=> https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml (0.6.11)
-[debug] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.scala-js#sbt-scalajs;0.6.11!ivy.xml(ivy.original) (1746ms)
-[debug] 	found org.scala-js#sbt-scalajs;0.6.11 in sbt-plugin-releases
+[debug] sbt-chain: module revision found in cache: org.scala-js#sbt-scalajs;0.6.11
+[debug] 	found org.scala-js#sbt-scalajs;0.6.11 in sbt-chain
 [debug] 	[0.6.11] org.scala-js#sbt-scalajs;0.6.11
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->default(compile)]
@@ -158,31 +146,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-tools_2.10;0.6.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-tools_2.10;0.6.11 {compile=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-tools_2.10;0.6.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-tools_2.10;0.6.11 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-tools_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-tools_2.10/0.6.11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#scalajs-tools_2.10;0.6.11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-tools_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-tools_2.10/0.6.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#scalajs-tools_2.10;0.6.11
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-tools_2.10/0.6.11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-tools_2.10;0.6.11
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.pom
-[debug] 	public: found md file for org.scala-js#scalajs-tools_2.10;0.6.11
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.pom (0.6.11)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-tools_2.10;0.6.11!scalajs-tools_2.10.pom(pom.original) (285ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-tools_2.10/0.6.11/jars/scalajs-tools_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-tools_2.10/0.6.11/jars/scalajs-tools_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-tools_2.10/0.6.11/jars/scalajs-tools_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-tools_2.10/0.6.11/jars/scalajs-tools_2.10.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-tools_2.10/0.6.11/jars/scalajs-tools_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.jar
-[debug] 	found org.scala-js#scalajs-tools_2.10;0.6.11 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-tools_2.10;0.6.11
+[debug] 	found org.scala-js#scalajs-tools_2.10;0.6.11 in sbt-chain
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->runtime]
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -205,31 +170,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-ir_2.10;0.6.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-ir_2.10;0.6.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-js#scalajs-ir_2.10;0.6.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-ir_2.10;0.6.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-ir_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-ir_2.10/0.6.11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#scalajs-ir_2.10;0.6.11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-ir_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-ir_2.10/0.6.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#scalajs-ir_2.10;0.6.11
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-ir_2.10/0.6.11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-ir_2.10;0.6.11
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.pom
-[debug] 	public: found md file for org.scala-js#scalajs-ir_2.10;0.6.11
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.pom (0.6.11)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-ir_2.10;0.6.11!scalajs-ir_2.10.pom(pom.original) (260ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-ir_2.10/0.6.11/jars/scalajs-ir_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-ir_2.10/0.6.11/jars/scalajs-ir_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-ir_2.10/0.6.11/jars/scalajs-ir_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-ir_2.10/0.6.11/jars/scalajs-ir_2.10.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-ir_2.10/0.6.11/jars/scalajs-ir_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.jar
-[debug] 	found org.scala-js#scalajs-ir_2.10;0.6.11 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-ir_2.10;0.6.11
+[debug] 	found org.scala-js#scalajs-ir_2.10;0.6.11 in sbt-chain
 [debug] 	[0.6.11] org.scala-js#scalajs-ir_2.10;0.6.11
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-js#scalajs-tools_2.10;0.6.11->org.scala-js#scalajs-ir_2.10;0.6.11 [compile->compile(*)]
@@ -256,112 +198,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.scala-js#closure-compiler-java-6;v20160517 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#closure-compiler-java-6;v20160517 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-js#closure-compiler-java-6;v20160517 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#closure-compiler-java-6;v20160517 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-java-6/v20160517/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#closure-compiler-java-6;v20160517
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-java-6/v20160517/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#closure-compiler-java-6;v20160517
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-java-6/v20160517/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#closure-compiler-java-6;v20160517
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom
-[debug] 	public: found md file for org.scala-js#closure-compiler-java-6;v20160517
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom (v20160517)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#closure-compiler-java-6;v20160517!closure-compiler-java-6.pom(pom.original) (400ms)
-[info] Resolving org.scala-js#closure-compiler-main-java-6;v20160517 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-js#closure-compiler-main-java-6;v20160517 {}
-[info] Resolving org.scala-js#closure-compiler-main-java-6;v20160517 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#closure-compiler-main-java-6;v20160517 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-main-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-main-java-6/v20160517/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#closure-compiler-main-java-6;v20160517
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-main-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-main-java-6/v20160517/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#closure-compiler-main-java-6;v20160517
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-main-java-6/v20160517/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#closure-compiler-main-java-6;v20160517
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.pom
-[debug] 	public: found md file for org.scala-js#closure-compiler-main-java-6;v20160517
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.pom (v20160517)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#closure-compiler-main-java-6;v20160517!closure-compiler-main-java-6.pom(pom.original) (562ms)
-[info] Resolving org.scala-js#closure-compiler-parent-java-6;v20160517 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-js#closure-compiler-parent-java-6;v20160517 {}
-[info] Resolving org.scala-js#closure-compiler-parent-java-6;v20160517 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#closure-compiler-parent-java-6;v20160517 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#closure-compiler-parent-java-6;v20160517
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#closure-compiler-parent-java-6;v20160517
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-parent-java-6/v20160517/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#closure-compiler-parent-java-6;v20160517
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.pom
-[debug] 	public: found md file for org.scala-js#closure-compiler-parent-java-6;v20160517
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.pom (v20160517)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#closure-compiler-parent-java-6;v20160517!closure-compiler-parent-java-6.pom(pom.original) (450ms)
-[info] Resolving org.sonatype.oss#oss-parent;9 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
-[info] Resolving org.sonatype.oss#oss-parent;9 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.oss/oss-parent/9/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.oss/oss-parent/9/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.sonatype.oss#oss-parent;9
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.oss/oss-parent/9/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.oss/oss-parent/9/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.sonatype.oss#oss-parent;9
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.sonatype.oss/oss-parent/9/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.sonatype.oss#oss-parent;9
-[debug] 		tried https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[debug] 	public: found md file for org.sonatype.oss#oss-parent;9
-[debug] 		=> https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom (9)
-[debug] downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[debug] 	[SUCCESSFUL ] org.sonatype.oss#oss-parent;9!oss-parent.pom(pom.original) (681ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.oss/oss-parent/9/jars/oss-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.sonatype.oss/oss-parent/9/jars/oss-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.oss/oss-parent/9/jars/oss-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.sonatype.oss/oss-parent/9/jars/oss-parent.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.sonatype.oss/oss-parent/9/jars/oss-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/jars/closure-compiler-parent-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/jars/closure-compiler-parent-java-6.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/jars/closure-compiler-parent-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-parent-java-6/v20160517/jars/closure-compiler-parent-java-6.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-parent-java-6/v20160517/jars/closure-compiler-parent-java-6.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-js/closure-compiler-parent-java-6/v20160517/closure-compiler-parent-java-6-v20160517.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-main-java-6/v20160517/jars/closure-compiler-main-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-main-java-6/v20160517/jars/closure-compiler-main-java-6.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-main-java-6/v20160517/jars/closure-compiler-main-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-main-java-6/v20160517/jars/closure-compiler-main-java-6.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-main-java-6/v20160517/jars/closure-compiler-main-java-6.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-js/closure-compiler-main-java-6/v20160517/closure-compiler-main-java-6-v20160517.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-java-6/v20160517/jars/closure-compiler-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-java-6/v20160517/jars/closure-compiler-java-6.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-java-6/v20160517/jars/closure-compiler-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-java-6/v20160517/jars/closure-compiler-java-6.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-java-6/v20160517/jars/closure-compiler-java-6.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar
-[debug] 	found org.scala-js#closure-compiler-java-6;v20160517 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#closure-compiler-java-6;v20160517
+[debug] 	found org.scala-js#closure-compiler-java-6;v20160517 in sbt-chain
 [debug] == resolving dependencies org.scala-js#scalajs-tools_2.10;0.6.11->org.scala-js#closure-compiler-java-6;v20160517 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->org.scala-js#closure-compiler-externs-java-6;v20160517 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -373,34 +211,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.scala-js#closure-compiler-externs-java-6;v20160517 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#closure-compiler-externs-java-6;v20160517 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.scala-js#closure-compiler-externs-java-6;v20160517 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#closure-compiler-externs-java-6;v20160517 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#closure-compiler-externs-java-6;v20160517
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#closure-compiler-externs-java-6;v20160517
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-externs-java-6/v20160517/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#closure-compiler-externs-java-6;v20160517
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.pom
-[debug] 	public: found md file for org.scala-js#closure-compiler-externs-java-6;v20160517
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.pom (v20160517)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#closure-compiler-externs-java-6;v20160517!closure-compiler-externs-java-6.pom(pom.original) (1046ms)
-[info] Resolving org.scala-js#closure-compiler-parent-java-6;v20160517 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-js#closure-compiler-parent-java-6;v20160517 {}
-[debug] sbt-chain: module revision found in cache: org.scala-js#closure-compiler-parent-java-6;v20160517
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/jars/closure-compiler-externs-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/jars/closure-compiler-externs-java-6.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/jars/closure-compiler-externs-java-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/closure-compiler-externs-java-6/v20160517/jars/closure-compiler-externs-java-6.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/closure-compiler-externs-java-6/v20160517/jars/closure-compiler-externs-java-6.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.jar
-[debug] 	found org.scala-js#closure-compiler-externs-java-6;v20160517 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#closure-compiler-externs-java-6;v20160517
+[debug] 	found org.scala-js#closure-compiler-externs-java-6;v20160517 in sbt-chain
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->org.scala-js#closure-compiler-externs-java-6;v20160517 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->args4j#args4j;2.0.26 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -412,85 +224,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving args4j#args4j;2.0.26 ...
 [debug] sbt-chain: Checking cache for: dependency: args4j#args4j;2.0.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving args4j#args4j;2.0.26 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: args4j#args4j;2.0.26 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j/2.0.26/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j/2.0.26/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for args4j#args4j;2.0.26
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j/2.0.26/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j/2.0.26/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for args4j#args4j;2.0.26
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/args4j/args4j/2.0.26/ivys/ivy.xml
-[debug] 	local: no ivy file found for args4j#args4j;2.0.26
-[debug] 		tried https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.pom
-[debug] 	public: found md file for args4j#args4j;2.0.26
-[debug] 		=> https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.pom (2.0.26)
-[debug] downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.pom
-[debug] 	[SUCCESSFUL ] args4j#args4j;2.0.26!args4j.pom(pom.original) (315ms)
-[info] Resolving args4j#args4j-site;2.0.26 ...
-[debug] sbt-chain: Checking cache for: dependency: args4j#args4j-site;2.0.26 {}
-[info] Resolving args4j#args4j-site;2.0.26 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: args4j#args4j-site;2.0.26 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j-site/2.0.26/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j-site/2.0.26/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for args4j#args4j-site;2.0.26
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j-site/2.0.26/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j-site/2.0.26/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for args4j#args4j-site;2.0.26
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/args4j/args4j-site/2.0.26/ivys/ivy.xml
-[debug] 	local: no ivy file found for args4j#args4j-site;2.0.26
-[debug] 		tried https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.pom
-[debug] 	public: found md file for args4j#args4j-site;2.0.26
-[debug] 		=> https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.pom (2.0.26)
-[debug] downloading https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.pom
-[debug] 	[SUCCESSFUL ] args4j#args4j-site;2.0.26!args4j-site.pom(pom.original) (361ms)
-[info] Resolving org.kohsuke#pom;6 ...
-[debug] sbt-chain: Checking cache for: dependency: org.kohsuke#pom;6 {}
-[info] Resolving org.kohsuke#pom;6 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.kohsuke#pom;6 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.kohsuke/pom/6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.kohsuke/pom/6/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.kohsuke#pom;6
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.kohsuke/pom/6/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.kohsuke/pom/6/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.kohsuke#pom;6
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.kohsuke/pom/6/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.kohsuke#pom;6
-[debug] 		tried https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.pom
-[debug] 	public: found md file for org.kohsuke#pom;6
-[debug] 		=> https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.pom (6)
-[debug] downloading https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.pom
-[debug] 	[SUCCESSFUL ] org.kohsuke#pom;6!pom.pom(pom.original) (259ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.kohsuke/pom/6/jars/pom.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.kohsuke/pom/6/jars/pom.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.kohsuke/pom/6/jars/pom.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.kohsuke/pom/6/jars/pom.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.kohsuke/pom/6/jars/pom.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/kohsuke/pom/6/pom-6.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j-site/2.0.26/jars/args4j-site.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j-site/2.0.26/jars/args4j-site.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j-site/2.0.26/jars/args4j-site.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j-site/2.0.26/jars/args4j-site.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/args4j/args4j-site/2.0.26/jars/args4j-site.jar
-[debug] 		tried https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/args4j/args4j-site/2.0.26/args4j-site-2.0.26.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j/2.0.26/bundles/args4j.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j/2.0.26/bundles/args4j.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j/2.0.26/bundles/args4j.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j/2.0.26/bundles/args4j.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/args4j/args4j/2.0.26/bundles/args4j.jar
-[debug] 		tried https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.jar
-[debug] 	found args4j#args4j;2.0.26 in public
+[debug] sbt-chain: module revision found in cache: args4j#args4j;2.0.26
+[debug] 	found args4j#args4j;2.0.26 in sbt-chain
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->args4j#args4j;2.0.26 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.guava#guava;19.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -502,61 +237,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving com.google.guava#guava;19.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;19.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.google.guava#guava;19.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.guava#guava;19.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/19.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/19.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google.guava#guava;19.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/19.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/19.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google.guava#guava;19.0
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.guava/guava/19.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google.guava#guava;19.0
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
-[debug] 	public: found md file for com.google.guava#guava;19.0
-[debug] 		=> https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom (19.0)
-[debug] downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.pom
-[debug] 	[SUCCESSFUL ] com.google.guava#guava;19.0!guava.pom(pom.original) (348ms)
-[info] Resolving com.google.guava#guava-parent;19.0 ...
-[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;19.0 {}
-[info] Resolving com.google.guava#guava-parent;19.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.guava#guava-parent;19.0 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/19.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/19.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google.guava#guava-parent;19.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/19.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/19.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google.guava#guava-parent;19.0
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.guava/guava-parent/19.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google.guava#guava-parent;19.0
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
-[debug] 	public: found md file for com.google.guava#guava-parent;19.0
-[debug] 		=> https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom (19.0)
-[debug] downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.pom
-[debug] 	[SUCCESSFUL ] com.google.guava#guava-parent;19.0!guava-parent.pom(pom.original) (462ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/19.0/jars/guava-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava-parent/19.0/jars/guava-parent.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/19.0/jars/guava-parent.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava-parent/19.0/jars/guava-parent.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.guava/guava-parent/19.0/jars/guava-parent.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/guava/guava-parent/19.0/guava-parent-19.0.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/19.0/bundles/guava.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/19.0/bundles/guava.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/19.0/bundles/guava.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/19.0/bundles/guava.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.guava/guava/19.0/bundles/guava.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
-[debug] 	found com.google.guava#guava;19.0 in public
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;19.0
+[debug] 	found com.google.guava#guava;19.0 in sbt-chain
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.guava#guava;19.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.protobuf#protobuf-java;2.5.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -568,58 +250,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.5.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/2.5.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/2.5.0/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google.protobuf#protobuf-java;2.5.0
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/2.5.0/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/2.5.0/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google.protobuf#protobuf-java;2.5.0
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.protobuf/protobuf-java/2.5.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google.protobuf#protobuf-java;2.5.0
-[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
-[debug] 	public: found md file for com.google.protobuf#protobuf-java;2.5.0
-[debug] 		=> https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom (2.5.0)
-[debug] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
-[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.pom(pom.original) (366ms)
-[info] Resolving com.google#google;1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.google#google;1 {}
-[info] Resolving com.google#google;1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google#google;1 {}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google#google;1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google#google;1
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google/google/1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google#google;1
-[debug] 		tried https://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-[debug] 	public: found md file for com.google#google;1
-[debug] 		=> https://repo1.maven.org/maven2/com/google/google/1/google-1.pom (1)
-[debug] downloading https://repo1.maven.org/maven2/com/google/google/1/google-1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/google/1/google-1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/google/1/google-1.pom
-[debug] 	[SUCCESSFUL ] com.google#google;1!google.pom(pom.original) (356ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/jars/google.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google/google/1/jars/google.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/jars/google.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google/google/1/jars/google.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google/google/1/jars/google.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/google/1/google-1.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/google/1/google-1.jar
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/2.5.0/bundles/protobuf-java.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/2.5.0/bundles/protobuf-java.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/2.5.0/bundles/protobuf-java.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/2.5.0/bundles/protobuf-java.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.protobuf/protobuf-java/2.5.0/bundles/protobuf-java.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
-[debug] 	found com.google.protobuf#protobuf-java;2.5.0 in public
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
+[debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.code.gson#gson;2.2.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -631,34 +263,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving com.google.code.gson#gson;2.2.4 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.code.gson#gson;2.2.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.google.code.gson#gson;2.2.4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.gson#gson;2.2.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.gson/gson/2.2.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.gson/gson/2.2.4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google.code.gson#gson;2.2.4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.gson/gson/2.2.4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.gson/gson/2.2.4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google.code.gson#gson;2.2.4
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.code.gson/gson/2.2.4/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google.code.gson#gson;2.2.4
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
-[debug] 	public: found md file for com.google.code.gson#gson;2.2.4
-[debug] 		=> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom (2.2.4)
-[debug] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
-[debug] 	[SUCCESSFUL ] com.google.code.gson#gson;2.2.4!gson.pom(pom.original) (281ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.gson/gson/2.2.4/jars/gson.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.gson/gson/2.2.4/jars/gson.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.gson/gson/2.2.4/jars/gson.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.gson/gson/2.2.4/jars/gson.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.code.gson/gson/2.2.4/jars/gson.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
-[debug] 	found com.google.code.gson#gson;2.2.4 in public
+[debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.2.4
+[debug] 	found com.google.code.gson#gson;2.2.4 in sbt-chain
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.code.gson#gson;2.2.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.code.findbugs#jsr305;1.3.9 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -670,31 +276,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving com.google.code.findbugs#jsr305;1.3.9 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.google.code.findbugs#jsr305;1.3.9 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.google.code.findbugs#jsr305;1.3.9
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.google.code.findbugs#jsr305;1.3.9
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.code.findbugs/jsr305/1.3.9/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.google.code.findbugs#jsr305;1.3.9
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
-[debug] 	public: found md file for com.google.code.findbugs#jsr305;1.3.9
-[debug] 		=> https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (1.3.9)
-[debug] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
-[debug] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;1.3.9!jsr305.pom(pom.original) (398ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
-[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in public
+[debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9
+[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain
 [debug] == resolving dependencies org.scala-js#closure-compiler-java-6;v20160517->com.google.code.findbugs#jsr305;1.3.9 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-tools_2.10;0.6.11->org.scala-js#closure-compiler-java-6;v20160517 [compile->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-tools_2.10;0.6.11->org.scala-js#closure-compiler-java-6;v20160517 [compile->compile]
@@ -720,31 +303,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving com.googlecode.json-simple#json-simple;1.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.googlecode.json-simple#json-simple;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving com.googlecode.json-simple#json-simple;1.1.1 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: com.googlecode.json-simple#json-simple;1.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.googlecode.json-simple/json-simple/1.1.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.googlecode.json-simple/json-simple/1.1.1/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for com.googlecode.json-simple#json-simple;1.1.1
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.googlecode.json-simple/json-simple/1.1.1/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.googlecode.json-simple/json-simple/1.1.1/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for com.googlecode.json-simple#json-simple;1.1.1
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.googlecode.json-simple/json-simple/1.1.1/ivys/ivy.xml
-[debug] 	local: no ivy file found for com.googlecode.json-simple#json-simple;1.1.1
-[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
-[debug] 	public: found md file for com.googlecode.json-simple#json-simple;1.1.1
-[debug] 		=> https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom (1.1.1)
-[debug] downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
-[debug] 	[SUCCESSFUL ] com.googlecode.json-simple#json-simple;1.1.1!json-simple.pom(pom.original) (301ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.googlecode.json-simple/json-simple/1.1.1/bundles/json-simple.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.googlecode.json-simple/json-simple/1.1.1/bundles/json-simple.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.googlecode.json-simple/json-simple/1.1.1/bundles/json-simple.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.googlecode.json-simple/json-simple/1.1.1/bundles/json-simple.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.googlecode.json-simple/json-simple/1.1.1/bundles/json-simple.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
-[debug] 	found com.googlecode.json-simple#json-simple;1.1.1 in public
+[debug] sbt-chain: module revision found in cache: com.googlecode.json-simple#json-simple;1.1.1
+[debug] 	found com.googlecode.json-simple#json-simple;1.1.1 in sbt-chain
 [debug] == resolving dependencies org.scala-js#scalajs-tools_2.10;0.6.11->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)]
 [debug] excluding dependency: junit#junit;4.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies org.scala-js#scalajs-tools_2.10;0.6.11->com.googlecode.json-simple#json-simple;1.1.1 [compile->runtime(*)]
@@ -767,31 +327,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-js-envs_2.10;0.6.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-js-envs_2.10;0.6.11 {compile=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-js-envs_2.10;0.6.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-js-envs_2.10;0.6.11 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#scalajs-js-envs_2.10;0.6.11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#scalajs-js-envs_2.10;0.6.11
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-js-envs_2.10/0.6.11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-js-envs_2.10;0.6.11
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.pom
-[debug] 	public: found md file for org.scala-js#scalajs-js-envs_2.10;0.6.11
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.pom (0.6.11)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-js-envs_2.10;0.6.11!scalajs-js-envs_2.10.pom(pom.original) (367ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/jars/scalajs-js-envs_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/jars/scalajs-js-envs_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/jars/scalajs-js-envs_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-js-envs_2.10/0.6.11/jars/scalajs-js-envs_2.10.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-js-envs_2.10/0.6.11/jars/scalajs-js-envs_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.jar
-[debug] 	found org.scala-js#scalajs-js-envs_2.10;0.6.11 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-js-envs_2.10;0.6.11
+[debug] 	found org.scala-js#scalajs-js-envs_2.10;0.6.11 in sbt-chain
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-js-envs_2.10;0.6.11 [compile->runtime]
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-js-envs_2.10;0.6.11 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -821,34 +358,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving io.apigee#rhino;1.7R5pre4 ...
 [debug] sbt-chain: Checking cache for: dependency: io.apigee#rhino;1.7R5pre4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving io.apigee#rhino;1.7R5pre4 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: io.apigee#rhino;1.7R5pre4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.apigee/rhino/1.7R5pre4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.apigee/rhino/1.7R5pre4/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for io.apigee#rhino;1.7R5pre4
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.apigee/rhino/1.7R5pre4/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.apigee/rhino/1.7R5pre4/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for io.apigee#rhino;1.7R5pre4
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/io.apigee/rhino/1.7R5pre4/ivys/ivy.xml
-[debug] 	local: no ivy file found for io.apigee#rhino;1.7R5pre4
-[debug] 		tried https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom
-[debug] 	public: found md file for io.apigee#rhino;1.7R5pre4
-[debug] 		=> https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom (1.7R5pre4)
-[debug] downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom
-[debug] 	[SUCCESSFUL ] io.apigee#rhino;1.7R5pre4!rhino.pom(pom.original) (316ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.apigee/rhino/1.7R5pre4/jars/rhino.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.apigee/rhino/1.7R5pre4/jars/rhino.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.apigee/rhino/1.7R5pre4/jars/rhino.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.apigee/rhino/1.7R5pre4/jars/rhino.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/io.apigee/rhino/1.7R5pre4/jars/rhino.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
-[debug] 	found io.apigee#rhino;1.7R5pre4 in public
+[debug] sbt-chain: module revision found in cache: io.apigee#rhino;1.7R5pre4
+[debug] 	found io.apigee#rhino;1.7R5pre4 in sbt-chain
 [debug] == resolving dependencies org.scala-js#scalajs-js-envs_2.10;0.6.11->io.apigee#rhino;1.7R5pre4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-js-envs_2.10;0.6.11->io.apigee#rhino;1.7R5pre4 [compile->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-js-envs_2.10;0.6.11->io.apigee#rhino;1.7R5pre4 [compile->compile]
@@ -862,34 +373,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.webjars#envjs;1.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars#envjs;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[info] Resolving org.webjars#envjs;1.2 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.webjars#envjs;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.webjars/envjs/1.2/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.webjars/envjs/1.2/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.webjars#envjs;1.2
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.webjars/envjs/1.2/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.webjars/envjs/1.2/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.webjars#envjs;1.2
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.webjars/envjs/1.2/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.webjars#envjs;1.2
-[debug] 		tried https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom
-[debug] 	public: found md file for org.webjars#envjs;1.2
-[debug] 		=> https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom (1.2)
-[debug] downloading https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom
-[debug] 	[SUCCESSFUL ] org.webjars#envjs;1.2!envjs.pom(pom.original) (259ms)
-[info] Resolving org.sonatype.oss#oss-parent;7 ...
-[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
-[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.webjars/envjs/1.2/jars/envjs.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.webjars/envjs/1.2/jars/envjs.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.webjars/envjs/1.2/jars/envjs.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.webjars/envjs/1.2/jars/envjs.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.webjars/envjs/1.2/jars/envjs.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar
-[debug] 	found org.webjars#envjs;1.2 in public
+[debug] sbt-chain: module revision found in cache: org.webjars#envjs;1.2
+[debug] 	found org.webjars#envjs;1.2 in sbt-chain
 [debug] == resolving dependencies org.scala-js#scalajs-js-envs_2.10;0.6.11->org.webjars#envjs;1.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-js-envs_2.10;0.6.11->org.webjars#envjs;1.2 [compile->runtime(*)]
 [debug] == resolving dependencies org.scala-js#scalajs-js-envs_2.10;0.6.11->org.webjars#envjs;1.2 [compile->compile]
@@ -910,31 +395,8 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [info] Resolving org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 {compile=[default(compile)]}
-[info] Resolving org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 ...
-[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 {compile=[default(compile)]}
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/ivys/ivy.xml
-[debug] 	typesafe-ivy-releases: no ivy file found for org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/ivys/ivy.xml
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/ivys/ivy.xml
-[debug] 	sbt-plugin-releases: no ivy file found for org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.pom
-[debug] 	public: found md file for org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11
-[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.pom (0.6.11)
-[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.pom ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.pom
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.pom.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.pom
-[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11!scalajs-sbt-test-adapter_2.10.pom(pom.original) (449ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/jars/scalajs-sbt-test-adapter_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/jars/scalajs-sbt-test-adapter_2.10.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/jars/scalajs-sbt-test-adapter_2.10.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/jars/scalajs-sbt-test-adapter_2.10.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/jars/scalajs-sbt-test-adapter_2.10.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.jar
-[debug] 	found org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 in public
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11
+[debug] 	found org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 in sbt-chain
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->runtime]
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4723,101 +4185,26 @@
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 [debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!sbteclipse-plugin.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/jars/sbt-scalajs.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/jars/sbt-scalajs.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/jars/sbt-scalajs.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/jars/sbt-scalajs.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/jars/sbt-scalajs.jar
-[info] 	[SUCCESSFUL ] org.scala-js#sbt-scalajs;0.6.11!sbt-scalajs.jar (4695ms)
+[debug] 	[NOT REQUIRED] org.scala-js#sbt-scalajs;0.6.11!sbt-scalajs.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(bundle)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.11/scalajs-tools_2.10-0.6.11.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-tools_2.10;0.6.11!scalajs-tools_2.10.jar (22278ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.11/scalajs-js-envs_2.10-0.6.11.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-js-envs_2.10;0.6.11!scalajs-js-envs_2.10.jar (1982ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.11/scalajs-sbt-test-adapter_2.10-0.6.11.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11!scalajs-sbt-test-adapter_2.10.jar (909ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.11/scalajs-ir_2.10-0.6.11.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-ir_2.10;0.6.11!scalajs-ir_2.10.jar (3903ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar
-[info] 	[SUCCESSFUL ] org.scala-js#closure-compiler-java-6;v20160517!closure-compiler-java-6.jar (51423ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
-[info] downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
-[info] 	[SUCCESSFUL ] com.googlecode.json-simple#json-simple;1.1.1!json-simple.jar(bundle) (579ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/closure-compiler-externs-java-6/v20160517/closure-compiler-externs-java-6-v20160517.jar
-[info] 	[SUCCESSFUL ] org.scala-js#closure-compiler-externs-java-6;v20160517!closure-compiler-externs-java-6.jar (1575ms)
-[debug] 		tried https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.jar
-[info] downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/args4j/args4j/2.0.26/args4j-2.0.26.jar
-[info] 	[SUCCESSFUL ] args4j#args4j;2.0.26!args4j.jar(bundle) (942ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/19.0/guava-19.0.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;19.0!guava.jar(bundle) (15647ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
-[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle) (3957ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
-[info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.2.4!gson.jar (2003ms)
-[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
-[info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar (600ms)
-[debug] 		tried https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
-[info] downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
-[info] 	[SUCCESSFUL ] io.apigee#rhino;1.7R5pre4!rhino.jar (6887ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar
-[info] downloading https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar
-[info] 	[SUCCESSFUL ] org.webjars#envjs;1.2!envjs.jar (1275ms)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-tools_2.10;0.6.11!scalajs-tools_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-js-envs_2.10;0.6.11!scalajs-js-envs_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11!scalajs-sbt-test-adapter_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-ir_2.10;0.6.11!scalajs-ir_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-js#closure-compiler-java-6;v20160517!closure-compiler-java-6.jar
+[debug] 	[NOT REQUIRED] com.googlecode.json-simple#json-simple;1.1.1!json-simple.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-js#closure-compiler-externs-java-6;v20160517!closure-compiler-externs-java-6.jar
+[debug] 	[NOT REQUIRED] args4j#args4j;2.0.26!args4j.jar(bundle)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;19.0!guava.jar(bundle)
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)
+[debug] 	[NOT REQUIRED] com.google.code.gson#gson;2.2.4!gson.jar
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
+[debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar
+[debug] 	[NOT REQUIRED] org.webjars#envjs;1.2!envjs.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
@@ -4873,7 +4260,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 62080ms :: artifacts dl 118689ms
+[debug] :: resolution report :: resolve 1789ms :: artifacts dl 38ms
 [debug] 	report for default#streams-build;0.1-SNAPSHOT compile produced in /Users/mkhoshneshin/Code/scala-course-2/streams/project/target/resolution-cache/reports/default-streams-build-compile.xml
 [debug] 	report for default#streams-build;0.1-SNAPSHOT runtime produced in /Users/mkhoshneshin/Code/scala-course-2/streams/project/target/resolution-cache/reports/default-streams-build-runtime.xml
 [debug] 	report for default#streams-build;0.1-SNAPSHOT test produced in /Users/mkhoshneshin/Code/scala-course-2/streams/project/target/resolution-cache/reports/default-streams-build-test.xml
@@ -4887,5 +4274,5 @@
 [debug] 	report for default#streams-build;0.1-SNAPSHOT docs produced in /Users/mkhoshneshin/Code/scala-course-2/streams/project/target/resolution-cache/reports/default-streams-build-docs.xml
 [debug] 	report for default#streams-build;0.1-SNAPSHOT pom produced in /Users/mkhoshneshin/Code/scala-course-2/streams/project/target/resolution-cache/reports/default-streams-build-pom.xml
 [debug] 	report for default#streams-build;0.1-SNAPSHOT scala-tool produced in /Users/mkhoshneshin/Code/scala-course-2/streams/project/target/resolution-cache/reports/default-streams-build-scala-tool.xml
-[debug] 	resolve done (62080ms resolve - 118689ms download)
+[debug] 	resolve done (1789ms resolve - 38ms download)
 [info] Done updating.
