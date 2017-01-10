@@ -890,9 +890,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 831ms :: artifacts dl 29ms
+[debug] :: resolution report :: resolve 770ms :: artifacts dl 29ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sbt_2.11-default.xml
-[debug] 	resolve done (831ms resolve - 29ms download)
+[debug] 	resolve done (770ms resolve - 29ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun2-quickcheck#progfun2-quickcheck$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1334,6 +1334,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 112ms :: artifacts dl 18ms
+[debug] :: resolution report :: resolve 124ms :: artifacts dl 23ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_2.11-default.xml
-[debug] 	resolve done (112ms resolve - 18ms download)
+[debug] 	resolve done (124ms resolve - 23ms download)
