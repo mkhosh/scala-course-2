@@ -4,7 +4,7 @@
 		module="progfun2-quickcheck$sbt_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170110091102"
+		publication="20170112103652"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

@@ -10,7 +10,7 @@
 [debug] == resolving dependencies for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e5e5f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d855ad5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -19,7 +19,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2813bafa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19b4e203
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4
 [debug] 	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime]
@@ -27,7 +27,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20130b36
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21af8d5b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -36,7 +36,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [compile->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b6371cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@630dba63
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
@@ -44,7 +44,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.11;1.12.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@456c16e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51922c9b
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.1
 [debug] 	found org.scalacheck#scalacheck_2.11;1.12.1 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->runtime]
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.12.1 [compile->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78e3a17b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a6adc0e
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->runtime]
@@ -60,7 +60,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a47b006
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61fe9d8a
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-sbt#test-interface;1.0 [compile->runtime]
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)]
 [info] Resolving junit#junit;4.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63e85a61
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@341e717b
 [debug] sbt-chain: module revision found in cache: junit#junit;4.10
 [debug] 	found junit#junit;4.10 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime]
@@ -223,7 +223,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->master]
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19b56e11
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eb72d3f
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1
 [debug] 	found org.hamcrest#hamcrest-core;1.1 in sbt-chain
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT->org.hamcrest#hamcrest-core;1.1 [test->runtime]
@@ -611,7 +611,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
-[debug] :: resolution report :: resolve 165ms :: artifacts dl 21ms
+[debug] :: resolution report :: resolve 418ms :: artifacts dl 31ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT compile produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_javadoc_2.11-compile.xml
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT runtime produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_javadoc_2.11-runtime.xml
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT test produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_javadoc_2.11-test.xml
@@ -625,4 +625,4 @@
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT docs produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_javadoc_2.11-docs.xml
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT pom produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_javadoc_2.11-pom.xml
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_javadoc_2.11;0.1-SNAPSHOT scala-tool produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (165ms resolve - 21ms download)
+[debug] 	resolve done (418ms resolve - 31ms download)
