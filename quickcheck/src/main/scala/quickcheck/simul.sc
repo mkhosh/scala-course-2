@@ -1,36 +1,21 @@
-import quickcheck.DiscreteSimul._
+import quickcheck.{Circuits, Parameters}
+object sim extends Circuits with Parameters
 
-/**
-  * () in the Action type is different than the literal
-  * value () of Unit. The first is 0-arity input type while
-  * the latter is a value.
-  */
+import sim._
 
-def f: Action = () => print("something ")
+val in1, in2, sum, carry = new Wire
 
-def h: () => Unit = () => print(" bye ")
+halfAdder(in1, in2, sum, carry)
+probe("sum", sum)
+probe("carry", carry)
 
-f()
-h()
+run()
 
-val a : Unit  = ()
+sim.lengthOfAgenda
+in1.setSignal(true)
 
-()
+sim.lengthOfAgenda
+run()
 
-def g(x: => Int) = x * x
-var y = 1
-g {y += 1; y}
-y
-def aaa(f: => String) = {f}
-
-aaa("abc")
-
-val bbb = aaa _
-
-bbb("abc")
-
-val actions = List(f,h)
-
-for (a <- actions) a()
-
-true & false
+in2.setSignal(true)
+run()

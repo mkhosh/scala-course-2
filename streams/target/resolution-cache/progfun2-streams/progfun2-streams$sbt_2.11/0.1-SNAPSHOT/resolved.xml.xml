@@ -4,7 +4,7 @@
 		module="progfun2-streams$sbt_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170109082543"
+		publication="20170113150128"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

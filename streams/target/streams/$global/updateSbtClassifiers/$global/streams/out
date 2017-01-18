@@ -1,13 +1,13 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/mkhoshneshin/.ivy2/cache
 [debug] :: resolving dependencies :: progfun2-streams#progfun2-streams$sbt_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'default'
 [debug] == resolving dependencies for progfun2-streams#progfun2-streams$sbt_2.11;0.1-SNAPSHOT [default]
-[debug] no default cache defined: set to /Users/mkhoshneshin/.ivy2/cache
 [debug] == resolving dependencies progfun2-streams#progfun2-streams$sbt_2.11;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {default=[default(compile)]}
@@ -1208,9 +1208,9 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar
-[debug] :: resolution report :: resolve 424ms :: artifacts dl 16ms
+[debug] :: resolution report :: resolve 490ms :: artifacts dl 23ms
 [debug] 	report for progfun2-streams#progfun2-streams$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/streams/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sbt_2.11-default.xml
-[debug] 	resolve done (424ms resolve - 16ms download)
+[debug] 	resolve done (490ms resolve - 23ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun2-streams#progfun2-streams$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1780,6 +1780,6 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-js-envs_2.10;0.6.11!scalajs-js-envs_2.10.jar(src)
 [debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11!scalajs-sbt-test-adapter_2.10.jar(src)
-[debug] :: resolution report :: resolve 118ms :: artifacts dl 20ms
+[debug] :: resolution report :: resolve 143ms :: artifacts dl 21ms
 [debug] 	report for progfun2-streams#progfun2-streams$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/streams/target/resolution-cache/reports/progfun2-streams-progfun2-streams$sources_2.11-default.xml
-[debug] 	resolve done (118ms resolve - 20ms download)
+[debug] 	resolve done (143ms resolve - 21ms download)

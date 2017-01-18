@@ -2764,8 +2764,8 @@
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!compiler-interface-bin.jar
@@ -2817,7 +2817,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 829ms :: artifacts dl 29ms
+[debug] :: resolution report :: resolve 1890ms :: artifacts dl 40ms
 [debug] 	report for default#quickcheck-build;0.1-SNAPSHOT compile produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/project/target/resolution-cache/reports/default-quickcheck-build-compile.xml
 [debug] 	report for default#quickcheck-build;0.1-SNAPSHOT runtime produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/project/target/resolution-cache/reports/default-quickcheck-build-runtime.xml
 [debug] 	report for default#quickcheck-build;0.1-SNAPSHOT test produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/project/target/resolution-cache/reports/default-quickcheck-build-test.xml
@@ -2831,5 +2831,5 @@
 [debug] 	report for default#quickcheck-build;0.1-SNAPSHOT docs produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/project/target/resolution-cache/reports/default-quickcheck-build-docs.xml
 [debug] 	report for default#quickcheck-build;0.1-SNAPSHOT pom produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/project/target/resolution-cache/reports/default-quickcheck-build-pom.xml
 [debug] 	report for default#quickcheck-build;0.1-SNAPSHOT scala-tool produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/project/target/resolution-cache/reports/default-quickcheck-build-scala-tool.xml
-[debug] 	resolve done (829ms resolve - 29ms download)
+[debug] 	resolve done (1890ms resolve - 40ms download)
 [info] Done updating.

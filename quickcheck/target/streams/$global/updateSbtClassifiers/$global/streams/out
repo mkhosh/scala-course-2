@@ -10,6 +10,7 @@
 [debug] == resolving dependencies progfun2-quickcheck#progfun2-quickcheck$sbt_2.11;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {default=[default(compile)]}
+[debug] no default cache defined: set to /Users/mkhoshneshin/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
 [debug] 	found org.scala-sbt#sbt;0.13.9 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
@@ -890,9 +891,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 471ms :: artifacts dl 26ms
+[debug] :: resolution report :: resolve 533ms :: artifacts dl 33ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sbt_2.11-default.xml
-[debug] 	resolve done (471ms resolve - 26ms download)
+[debug] 	resolve done (533ms resolve - 33ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun2-quickcheck#progfun2-quickcheck$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1275,7 +1276,17 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar(src)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.jar(src) (1137ms)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.9!actions.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.9!classpath.jar(src)
@@ -1334,6 +1345,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 102ms :: artifacts dl 50ms
+[debug] :: resolution report :: resolve 206ms :: artifacts dl 3363ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_2.11-default.xml
-[debug] 	resolve done (102ms resolve - 50ms download)
+[debug] 	resolve done (206ms resolve - 3363ms download)
