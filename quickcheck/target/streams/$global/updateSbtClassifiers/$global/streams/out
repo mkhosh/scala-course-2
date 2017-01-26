@@ -891,9 +891,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 533ms :: artifacts dl 33ms
+[debug] :: resolution report :: resolve 371ms :: artifacts dl 16ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sbt_2.11-default.xml
-[debug] 	resolve done (533ms resolve - 33ms download)
+[debug] 	resolve done (371ms resolve - 16ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun2-quickcheck#progfun2-quickcheck$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1276,17 +1276,7 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-lang/scala-library/2.10.5/srcs/scala-library-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.5!scala-library.jar(src) (1137ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.9!actions.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.9!classpath.jar(src)
@@ -1345,6 +1335,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 206ms :: artifacts dl 3363ms
+[debug] :: resolution report :: resolve 78ms :: artifacts dl 16ms
 [debug] 	report for progfun2-quickcheck#progfun2-quickcheck$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/quickcheck/target/resolution-cache/reports/progfun2-quickcheck-progfun2-quickcheck$sources_2.11-default.xml
-[debug] 	resolve done (206ms resolve - 3363ms download)
+[debug] 	resolve done (78ms resolve - 16ms download)

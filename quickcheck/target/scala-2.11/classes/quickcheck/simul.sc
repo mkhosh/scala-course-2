@@ -9,6 +9,8 @@ halfAdder(in1, in2, sum, carry)
 probe("sum", sum)
 probe("carry", carry)
 
+run()
+
 sim.lengthOfAgenda
 in1.setSignal(true)
 
