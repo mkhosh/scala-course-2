@@ -5,6 +5,7 @@ import org.scalajs.dom
 import org.scalajs.dom.html
 import dom.document
 
+
 object CalculatorUI extends js.JSApp {
   def main(): Unit = {
     try {

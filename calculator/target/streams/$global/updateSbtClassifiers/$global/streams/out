@@ -1138,8 +1138,8 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.2!scalajs-sbt-test-adapter_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!compiler-interface-bin.jar
@@ -1188,9 +1188,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.13.9!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 339ms :: artifacts dl 13ms
+[debug] :: resolution report :: resolve 506ms :: artifacts dl 19ms
 [debug] 	report for progfun2-calculator#progfun2-calculator$sbt_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/target/resolution-cache/reports/progfun2-calculator-progfun2-calculator$sbt_2.11-default.xml
-[debug] 	resolve done (339ms resolve - 13ms download)
+[debug] 	resolve done (506ms resolve - 19ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun2-calculator#progfun2-calculator$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1747,6 +1747,6 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-js-envs_2.10;0.6.2!scalajs-js-envs_2.10.jar(src)
 [debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.2!scalajs-sbt-test-adapter_2.10.jar(src)
-[debug] :: resolution report :: resolve 95ms :: artifacts dl 11ms
+[debug] :: resolution report :: resolve 116ms :: artifacts dl 17ms
 [debug] 	report for progfun2-calculator#progfun2-calculator$sources_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/target/resolution-cache/reports/progfun2-calculator-progfun2-calculator$sources_2.11-default.xml
-[debug] 	resolve done (95ms resolve - 11ms download)
+[debug] 	resolve done (116ms resolve - 17ms download)

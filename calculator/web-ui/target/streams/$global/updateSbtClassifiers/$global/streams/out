@@ -1138,8 +1138,8 @@
 [debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.2!scalajs-sbt-test-adapter_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-bin.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.9!compiler-interface-src.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.9!compiler-interface-bin.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!compiler-interface-bin.jar
@@ -1188,9 +1188,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#cache;0.13.9!cache.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 483ms :: artifacts dl 18ms
+[debug] :: resolution report :: resolve 353ms :: artifacts dl 13ms
 [debug] 	report for webui#webui$sbt_sjs0.6_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sbt_sjs0.6_2.11-default.xml
-[debug] 	resolve done (483ms resolve - 18ms download)
+[debug] 	resolve done (353ms resolve - 13ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1624,14 +1624,6 @@
 [debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [default->runtime]
 [debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [default->compile]
 [debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [default->master]
-[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.json#json;20090211 [default->default(compile)]
-[info] Resolving org.json#json;20090211 ...
-[debug] sbt-chain: Checking cache for: dependency: org.json#json;20090211 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.json#json;20090211
-[debug] 	found org.json#json;20090211 in sbt-chain
-[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.json#json;20090211 [default->runtime]
-[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.json#json;20090211 [default->compile]
-[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.json#json;20090211 [default->master]
 [debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->com.googlecode.json-simple#json-simple;1.1.1 [default->default(compile)]
 [info] Resolving com.googlecode.json-simple#json-simple;1.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.googlecode.json-simple#json-simple;1.1.1 {default=[default(compile)]}
@@ -1742,128 +1734,19 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar
-[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar ...
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar
-[debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar.sha1
-[debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-js#sbt-scalajs;0.6.2!sbt-scalajs.jar(src) (6791ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-tools_2.10/0.6.2/srcs/scalajs-tools_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-tools_2.10/0.6.2/srcs/scalajs-tools_2.10-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-tools_2.10/0.6.2/srcs/scalajs-tools_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-tools_2.10/0.6.2/srcs/scalajs-tools_2.10-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-tools_2.10/0.6.2/srcs/scalajs-tools_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-tools_2.10;0.6.2!scalajs-tools_2.10.jar(src) (2957ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-ir_2.10/0.6.2/srcs/scalajs-ir_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-ir_2.10/0.6.2/srcs/scalajs-ir_2.10-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-ir_2.10/0.6.2/srcs/scalajs-ir_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-ir_2.10/0.6.2/srcs/scalajs-ir_2.10-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-ir_2.10/0.6.2/srcs/scalajs-ir_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-ir_2.10;0.6.2!scalajs-ir_2.10.jar(src) (1467ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.javascript/closure-compiler/v20130603/srcs/closure-compiler-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.javascript/closure-compiler/v20130603/srcs/closure-compiler-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.javascript/closure-compiler/v20130603/srcs/closure-compiler-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.javascript/closure-compiler/v20130603/srcs/closure-compiler-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.javascript/closure-compiler/v20130603/srcs/closure-compiler-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603-sources.jar
-[info] 	[SUCCESSFUL ] com.google.javascript#closure-compiler;v20130603!closure-compiler.jar(src) (4407ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j/2.0.16/srcs/args4j-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/args4j/args4j/2.0.16/srcs/args4j-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j/2.0.16/srcs/args4j-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/args4j/args4j/2.0.16/srcs/args4j-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/args4j/args4j/2.0.16/srcs/args4j-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar
-[info] downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar
-[info] 	[SUCCESSFUL ] args4j#args4j;2.0.16!args4j.jar(src) (1802ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/14.0.1/srcs/guava-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.guava/guava/14.0.1/srcs/guava-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/14.0.1/srcs/guava-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.guava/guava/14.0.1/srcs/guava-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.guava/guava/14.0.1/srcs/guava-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;14.0.1!guava.jar(src) (3208ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/2.4.1/srcs/protobuf-java-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.google.protobuf/protobuf-java/2.4.1/srcs/protobuf-java-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/2.4.1/srcs/protobuf-java-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.google.protobuf/protobuf-java/2.4.1/srcs/protobuf-java-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/com.google.protobuf/protobuf-java/2.4.1/srcs/protobuf-java-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar
-[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar(src) (3975ms)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.json/json/20090211/srcs/json-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.json/json/20090211/srcs/json-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.json/json/20090211/srcs/json-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.json/json/20090211/srcs/json-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.json/json/20090211/srcs/json-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/json/json/20090211/json-20090211-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/json/json/20090211/json-20090211-sources.jar
-[warn] 	[FAILED     ] org.json#json;20090211!json.jar(src):  (0ms)
-[warn] ==== typesafe-ivy-releases: tried
-[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.json/json/20090211/srcs/json-sources.jar
-[warn] ==== sbt-plugin-releases: tried
-[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.json/json/20090211/srcs/json-sources.jar
-[warn] ==== local: tried
-[warn]   /Users/mkhoshneshin/.ivy2/local/org.json/json/20090211/srcs/json-sources.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/json/json/20090211/json-20090211-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-js#sbt-scalajs;0.6.2!sbt-scalajs.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-tools_2.10;0.6.2!scalajs-tools_2.10.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-ir_2.10;0.6.2!scalajs-ir_2.10.jar(src)
+[debug] 	[NOT REQUIRED] com.google.javascript#closure-compiler;v20130603!closure-compiler.jar(src)
+[debug] 	[NOT REQUIRED] args4j#args4j;2.0.16!args4j.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(src)
+[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar(src)
 [debug] 	[NOT REQUIRED] com.googlecode.json-simple#json-simple;1.1.1!json-simple.jar(src)
 [debug] 	[NOT REQUIRED] junit#junit;4.10!junit.jar(src)
 [debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-js-envs_2.10/0.6.2/srcs/scalajs-js-envs_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-js-envs_2.10/0.6.2/srcs/scalajs-js-envs_2.10-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-js-envs_2.10/0.6.2/srcs/scalajs-js-envs_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-js-envs_2.10/0.6.2/srcs/scalajs-js-envs_2.10-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-js-envs_2.10/0.6.2/srcs/scalajs-js-envs_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-js-envs_2.10;0.6.2!scalajs-js-envs_2.10.jar(src) (1843ms)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-js-envs_2.10;0.6.2!scalajs-js-envs_2.10.jar(src)
 [debug] 	[NOT REQUIRED] io.apigee#rhino;1.7R5pre4!rhino.jar(src)
-[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/srcs/scalajs-sbt-test-adapter_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/srcs/scalajs-sbt-test-adapter_2.10-sources.jar
-[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/srcs/scalajs-sbt-test-adapter_2.10-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/srcs/scalajs-sbt-test-adapter_2.10-sources.jar
-[debug] 		tried /Users/mkhoshneshin/.ivy2/local/org.scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/srcs/scalajs-sbt-test-adapter_2.10-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.2!scalajs-sbt-test-adapter_2.10.jar(src) (1428ms)
-[debug] :: resolution report :: resolve 98ms :: artifacts dl 58628ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.json#json;20090211!json.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.2!scalajs-sbt-test-adapter_2.10.jar(src)
+[debug] :: resolution report :: resolve 80ms :: artifacts dl 15ms
 [debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT default produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-default.xml
-[debug] 	resolve done (98ms resolve - 58628ms download)
+[debug] 	resolve done (80ms resolve - 15ms download)

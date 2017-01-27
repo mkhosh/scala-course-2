@@ -4,7 +4,7 @@
 		module="progfun2-calculator$sources_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161216175231"
+		publication="20170127121340"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

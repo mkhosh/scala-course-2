@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20161216174719"/>
+		date="20170127121341"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="sbt-scalajs">
 			<revision name="0.6.2" status="release" pubdate="20150317102406" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="60">
@@ -15,38 +15,38 @@
 				<metadata-artifact status="no" details="" size="2142" time="0" location="/Users/mkhoshneshin/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-js/sbt-scalajs/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/ivys/ivy.xml"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-scalajs" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21624" time="6791" location="/Users/mkhoshneshin/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-js/sbt-scalajs/srcs/sbt-scalajs-0.6.2-sources.jar">
+					<artifact name="sbt-scalajs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21624" time="0" location="/Users/mkhoshneshin/.ivy2/cache/scala_2.10/sbt_0.13/org.scala-js/sbt-scalajs/srcs/sbt-scalajs-0.6.2-sources.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.2/srcs/sbt-scalajs-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10">
-			<revision name="0.6.2" status="release" pubdate="20150317124754" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+			<revision name="0.6.2" status="release" pubdate="20150317124754" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.10/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalajs-sbt-test-adapter_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12981" time="1428" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.10/srcs/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar">
+					<artifact name="scalajs-sbt-test-adapter_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12981" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-sbt-test-adapter_2.10/srcs/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.2/scalajs-sbt-test-adapter_2.10-0.6.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-js-envs_2.10">
-			<revision name="0.6.2" status="release" pubdate="20150317124750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
+			<revision name="0.6.2" status="release" pubdate="20150317124750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="3534" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-js-envs_2.10/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalajs-js-envs_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="33534" time="1843" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-js-envs_2.10/srcs/scalajs-js-envs_2.10-0.6.2-sources.jar">
+					<artifact name="scalajs-js-envs_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33534" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-js-envs_2.10/srcs/scalajs-js-envs_2.10-0.6.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-js-envs_2.10/0.6.2/scalajs-js-envs_2.10-0.6.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.apigee" name="rhino">
-			<revision name="1.7R5pre4" status="release" pubdate="20141015034202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="72">
+			<revision name="1.7R5pre4" status="release" pubdate="20141015034202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="71">
 				<license name="Mozilla Public License 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
 				<metadata-artifact status="no" details="" size="2844" time="0" location="/Users/mkhoshneshin/.ivy2/cache/io.apigee/rhino/ivy-1.7R5pre4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="1.7R5pre4" rev-constraint-default="1.7R5pre4" rev-constraint-dynamic="1.7R5pre4" callerrev="0.1-SNAPSHOT"/>
@@ -63,14 +63,14 @@
 				<metadata-artifact status="no" details="" size="3242" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-tools_2.10/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalajs-tools_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="146670" time="2957" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-tools_2.10/srcs/scalajs-tools_2.10-0.6.2-sources.jar">
+					<artifact name="scalajs-tools_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146670" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-tools_2.10/srcs/scalajs-tools_2.10-0.6.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-tools_2.10/0.6.2/scalajs-tools_2.10-0.6.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.googlecode.json-simple" name="json-simple">
-			<revision name="1.1.1" status="release" pubdate="20120321094134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
+			<revision name="1.1.1" status="release" pubdate="20120321094134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2986" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.googlecode.json-simple/json-simple/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1-SNAPSHOT"/>
@@ -87,19 +87,9 @@
 				<metadata-artifact status="no" details="" size="3863" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.google.javascript/closure-compiler/ivy-v20130603.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="v20130603" rev-constraint-default="v20130603" rev-constraint-dynamic="v20130603" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="closure-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1469117" time="4407" location="/Users/mkhoshneshin/.ivy2/cache/com.google.javascript/closure-compiler/srcs/closure-compiler-v20130603-sources.jar">
+					<artifact name="closure-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1469117" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.google.javascript/closure-compiler/srcs/closure-compiler-v20130603-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20130603/closure-compiler-v20130603-sources.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.json" name="json">
-			<revision name="20090211" status="release" pubdate="20090226220142" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.json.org/java/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="67">
-				<license name="provided without support or warranty" url="http://www.json.org/license.html"/>
-				<metadata-artifact status="no" details="" size="3034" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.json/json/ivy-20090211.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json/json/20090211/json-20090211.pom"/>
-				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="20090211" rev-constraint-default="20090211" rev-constraint-dynamic="20090211" callerrev="0.1-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="json" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
@@ -109,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="3092" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="200142" time="3975" location="/Users/mkhoshneshin/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.4.1-sources.jar">
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200142" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.4.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -120,7 +110,7 @@
 				<metadata-artifact status="no" details="" size="3789" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1170076" time="3208" location="/Users/mkhoshneshin/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar">
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1170076" time="0" location="/Users/mkhoshneshin/.ivy2/cache/com.google.guava/guava/srcs/guava-14.0.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -131,7 +121,7 @@
 				<metadata-artifact status="no" details="" size="2550" time="0" location="/Users/mkhoshneshin/.ivy2/cache/args4j/args4j/ivy-2.0.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="2.0.16" rev-constraint-default="2.0.16" rev-constraint-dynamic="2.0.16" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="args4j" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37935" time="1802" location="/Users/mkhoshneshin/.ivy2/cache/args4j/args4j/srcs/args4j-2.0.16-sources.jar">
+					<artifact name="args4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37935" time="0" location="/Users/mkhoshneshin/.ivy2/cache/args4j/args4j/srcs/args4j-2.0.16-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/args4j/args4j/2.0.16/args4j-2.0.16-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -143,7 +133,7 @@
 				<metadata-artifact status="no" details="" size="2650" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-ir_2.10/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="scalajs-ir_2.10" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="34810" time="1467" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-ir_2.10/srcs/scalajs-ir_2.10-0.6.2-sources.jar">
+					<artifact name="scalajs-ir_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34810" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-js/scalajs-ir_2.10/srcs/scalajs-ir_2.10-0.6.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-ir_2.10/0.6.2/scalajs-ir_2.10-0.6.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -727,7 +717,7 @@
 			</revision>
 		</module>
 		<module organisation="junit" name="junit">
-			<revision name="4.10" status="release" pubdate="20110929121223" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
+			<revision name="4.10" status="release" pubdate="20110929121223" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="68">
 				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
 				<metadata-artifact status="no" details="" size="2897" time="0" location="/Users/mkhoshneshin/.ivy2/cache/junit/junit/ivy-4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="4.10" rev-constraint-default="4.10" rev-constraint-dynamic="4.10" callerrev="0.1-SNAPSHOT"/>
@@ -739,7 +729,7 @@
 			</revision>
 		</module>
 		<module organisation="org.hamcrest" name="hamcrest-core">
-			<revision name="1.1" status="release" pubdate="20070718121143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="70">
+			<revision name="1.1" status="release" pubdate="20070718121143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="69">
 				<metadata-artifact status="no" details="" size="4252" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom"/>
 				<caller organisation="webui" name="webui$sources_sjs0.6_2.11" conf="default" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>

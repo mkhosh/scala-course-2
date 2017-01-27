@@ -7,7 +7,7 @@
 		revision="0.1-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20161216174718"/>
+		date="20170127121340"/>
 	<dependencies>
 		<module organisation="org.scala-js" name="sbt-scalajs">
 			<revision name="0.6.2" status="release" pubdate="20150317102406" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="62">
@@ -350,11 +350,11 @@
 				<metadata-artifact status="no" details="" size="1758" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-0.13.9.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/ivys/ivy.xml"/>
 				<caller organisation="org.scala-sbt" name="sbt" conf="compile" rev="0.13.9" rev-constraint-default="0.13.9" rev-constraint-dynamic="0.13.9" callerrev="0.13.9"/>
 				<artifacts>
-					<artifact name="compiler-interface-src" type="jar" ext="jar" extra-component="compiler-interface-src" status="no" details="" size="30391" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-src-0.13.9.jar">
-						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/jars/compiler-interface-src.jar"/>
-					</artifact>
 					<artifact name="compiler-interface-bin" type="jar" ext="jar" extra-component="compiler-interface-bin_2.10.5" status="no" details="" size="241943" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-bin-0.13.9.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/jars/compiler-interface-bin.jar"/>
+					</artifact>
+					<artifact name="compiler-interface-src" type="jar" ext="jar" extra-component="compiler-interface-src" status="no" details="" size="30391" time="0" location="/Users/mkhoshneshin/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-src-0.13.9.jar">
+						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.9/jars/compiler-interface-src.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
