@@ -11,9 +11,9 @@ def h: () => Unit = () => print(" bye ")
 
 def f2() = print(" simple definition ")
 
-f()
-h()
-f2()
+f
+h
+f2
 
 val a: Unit = ()
 
@@ -37,4 +37,4 @@ bbb("abc")
 
 val actions = List(f, h)
 
-for (a <- actions) a()
+for (a <- actions) a
