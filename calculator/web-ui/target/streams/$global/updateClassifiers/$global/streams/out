@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3958b2dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@425e7b02
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 [debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-library_2.11;0.6.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72b73ec9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e002619
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.2
 [debug] 	found org.scala-js#scalajs-library_2.11;0.6.2 in sbt-chain
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
 [info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ca9de2f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46be2aa8
 [debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0
 [debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 in sbt-chain
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
@@ -241,7 +241,7 @@
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.2 [plugin->master]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20977e05
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ff9a270
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
 [debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->runtime]
@@ -249,7 +249,7 @@
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->master]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [plugin->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68f79f96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ea55736
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
 [debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
 [debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
@@ -258,7 +258,7 @@
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [plugin->master]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@207beea8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d5aca3e
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->runtime]
@@ -266,7 +266,7 @@
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->master]
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61b43cb9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1036c51e
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
 [debug] == resolving dependencies webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->runtime]
@@ -407,7 +407,7 @@
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(doc)
-[debug] :: resolution report :: resolve 97ms :: artifacts dl 16ms
+[debug] :: resolution report :: resolve 320ms :: artifacts dl 29ms
 [debug] 	report for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_javadoc_sjs0.6_2.11-compile.xml
 [debug] 	report for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_javadoc_sjs0.6_2.11-runtime.xml
 [debug] 	report for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT test produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_javadoc_sjs0.6_2.11-test.xml
@@ -422,4 +422,4 @@
 [debug] 	report for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_javadoc_sjs0.6_2.11-pom.xml
 [debug] 	report for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_javadoc_sjs0.6_2.11-scala-tool.xml
 [debug] 	report for webui#webui$sources_javadoc_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /Users/mkhoshneshin/Code/scala-course-2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_javadoc_sjs0.6_2.11-phantom-js-jetty.xml
-[debug] 	resolve done (97ms resolve - 16ms download)
+[debug] 	resolve done (320ms resolve - 29ms download)

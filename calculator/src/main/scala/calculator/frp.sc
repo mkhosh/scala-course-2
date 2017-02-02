@@ -34,4 +34,8 @@ b.withdraw(10)
 
 inDollar()
 
+val m = Map(1->2,2->3,3->4)
 
+m.mapValues(_*3)
+
+Set(1,2,3) + 5

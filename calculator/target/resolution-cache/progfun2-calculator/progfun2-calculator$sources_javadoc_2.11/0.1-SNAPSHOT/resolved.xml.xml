@@ -4,7 +4,7 @@
 		module="progfun2-calculator$sources_javadoc_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170130162105"
+		publication="20170201084515"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

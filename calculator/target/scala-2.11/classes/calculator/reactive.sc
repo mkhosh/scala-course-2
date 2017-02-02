@@ -1,4 +1,4 @@
-import calculator.BankAccount
+import frp.BankAccount
 
 trait Coin {}
 
